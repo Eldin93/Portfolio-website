@@ -59,23 +59,25 @@ body {
 }
 
 .content p {
-  font-size: 1.1em;
-  margin-bottom: 0.7em;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  font-weight: 500;
 }
 
 .content button {
   background-color: #008aa6;
   color: #ffffff;
   border: solid 2px #ffffff;
-  font-size: 1.2em;
+  font-size: 1.4em;
   padding: 0.5em;
   border-radius: 5px;
-  margin-bottom: 0.7em;
+  margin-bottom: 1em;
+  font-weight: 700;
 }
 
 .content img {
   width: 80%;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 #tech-stack {
@@ -147,11 +149,65 @@ body {
 .project-link a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.4em;
   background-color: #ffffff;
   color: #008aa6;
   padding: 0.5em;
   border-radius: 10px;
   text-align: center;
   margin: 0 0.3em;
+  font-weight: 800;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: #008aa6;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2em 0;
+}
+
+#contact h1{
+  margin-bottom: 1em;
+}
+#contact p{
+  margin-bottom: 1em;
+}
+
+#contact button {
+  background-color: #008aa6;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+#contact ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+#contact li{
+  margin: 0 1em;
+}
+
+#fab-blue{
+  color: #008aa6;
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #008aa6;
+  color: #ffffff;
+  padding: 1em 0;
 }
