@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="container">
+        <div id="logo"><h1>Eldin</h1></div>
+        <div id="nav-items">
+          <ul>
+            <li>
+              <a href="https://github.com/Eldin93" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://ba.linkedin.com/" target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://hr-hr.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="about">
+      <div class="content">
+        <div class="text">
+          <h1>Nice to meet you!</h1>
+          <h1>I'm Eldin Bjelak.</h1>
+          <p>
+            Based in Sarajevo, I'm a aspiring front-end developer passionate
+            about building accesible web applications.
+          </p>
+
+          <button onclick="scrollToSection()">Contact me</button>
+        </div>
+        <div class="image">
+          <img src="/img/my-picture.jpg" alt="picture-of-me" />
+        </div>
+      </div>
+    </section>
+    <section id="tech-stack">
+      <div class="technologies">
+        <div class="html">
+          <h1>HTML</h1>
+          <p>1 year of experience</p>
+        </div>
+        <div class="css">
+          <h1>CSS</h1>
+          <p>1 year of experience</p>
+        </div>
+        <div class="javascript">
+          <h1>JavaScript</h1>
+          <p>1 year of experience</p>
+        </div>
+        <div class="react">
+          <h1>REACT</h1>
+          <p>2 months of experience</p>
+        </div>
+        <div class="bootstrap">
+          <h1>Bootstrap</h1>
+          <p>2 months of experience</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="project-list">
+        <div>
+          <img src="/img/rock-paper-scissors.jpg" alt="" />
+          <h2>Rock Paper Scissors</h2>
+          <h3>HTML CSS JavaScript</h3>
+          <div class="project-link">
+            <a
+              href="https://eldin93.github.io/Rock-Paper-Scissors-game/"
+              target="_blank"
+              >View project</a
+            >
+            <a
+              href="https://github.com/Eldin93/Rock-Paper-Scissors-game"
+              target="_blank"
+              >View code</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="/img/QR-code.jpg" alt="" />
+          <h2>QR code component</h2>
+          <h3>HTML CSS</h3>
+          <div class="project-link">
+            <a
+              href="https://eldin93.github.io/QR-code-component-/"
+              target="_blank"
+              >View project</a
+            >
+            <a
+              href="https://github.com/Eldin93/QR-code-component-"
+              target="_blank"
+              >View code</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="/img/guessing-game.jpg" alt="" />
+          <h2>Guessing game</h2>
+          <h3>HTML CSS JavaScript</h3>
+          <div class="project-link">
+            <a href="https://eldin93.github.io/Guess-my-number/" target="_blank"
+              >View project</a
+            >
+            <a href="https://github.com/Eldin93/Guess-my-number" target="_blank"
+              >View code</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="/img/color-flipper.jpg" alt="" />
+          <h2>Color flipper</h2>
+          <h3>HTML CSS JavaScript</h3>
+          <div class="project-link">
+            <a href="https://eldin93.github.io/Color-Flipper/" target="_blank"
+              >View project</a
+            >
+            <a href="https://github.com/Eldin93/Collor-Flipper" target="_blank"
+              >View code</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="/img/counting-game.jpg" alt="" />
+          <h2>Counting game</h2>
+          <h3>HTML CSS JavaScript</h3>
+          <div class="project-link">
+            <a href="https://eldin93.github.io/Counting-game/" target="_blank"
+              >View project</a
+            >
+            <a href="https://github.com/Eldin93/Counting-game" target="_blank"
+              >View code</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="/img/accounting-agency.jpg" alt="" />
+          <h2>Accounting agency</h2>
+          <h3>Bootstrap</h3>
+          <div class="project-link">
+            <a href="" target="_blank">View project</a>
+            <a href="https://github.com/Eldin93/ECOFIN" target="_blank"
+              >View code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div>
+        <h1>Contact</h1>
+        <p>
+          I would love to hear your feedback regarding my projects and how I
+          could make them better.
+        </p>
+        <p>Please feel free to contact me</p>
+        <button
+          onclick="window.location.href='mailto:eldin.bjelak93@gmail.com'"
+        >
+          Send message
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright <span>Eldin93</span> &copy 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
