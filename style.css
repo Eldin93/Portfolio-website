@@ -159,7 +159,7 @@ body {
   font-weight: 800;
 }
 
-#contact{
+#contact {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -169,10 +169,10 @@ body {
   padding: 2em 0;
 }
 
-#contact h1{
+#contact h1 {
   margin-bottom: 1em;
 }
-#contact p{
+#contact p {
   margin-bottom: 1em;
 }
 
@@ -187,7 +187,7 @@ body {
   font-weight: 700;
 }
 
-#contact ul{
+#contact ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -195,11 +195,11 @@ body {
   list-style: none;
 }
 
-#contact li{
+#contact li {
   margin: 0 1em;
 }
 
-#fab-blue{
+#fab-blue {
   color: #008aa6;
   font-size: 1.5em;
 }
@@ -210,4 +210,35 @@ footer {
   background-color: #008aa6;
   color: #ffffff;
   padding: 1em 0;
+}
+
+/* Media Querry */
+
+@media (min-width: 700px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .content .image img {
+    width: 100%;
+  }
+  .content .text {
+    width: 50%;
+  }
+  .content .text p {
+    width: 70%;
+  }
+  .project-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    max-width: 70%;
+  }
 }
